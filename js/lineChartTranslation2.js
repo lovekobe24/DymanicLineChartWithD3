@@ -19,7 +19,6 @@ function LoadLineChart(elementId, updateData, min, max, samprate, dataCount,useI
 	var xScale;
 	var yScale;
 
-	//var chData = updateData[1].gdp.concat(updateData[0].gdp);
 	for (var i = 0; i < updateData.length; i++) {
 		var currMaxTime = d3.max(updateData[i].alldatas, function (d) {
 				return d[0];
