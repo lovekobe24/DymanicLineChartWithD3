@@ -1,1 +1,18 @@
 theme: jekyll-theme-slate
+# Setup
+title:        DynamicLineChartWithD3
+tagline:      动态曲线
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       zhang na
+  url:        http://yourhomepage.com 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
